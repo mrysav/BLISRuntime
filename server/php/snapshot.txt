@@ -1,15 +1,16 @@
 This snapshot was automatically generated on
-Wed, 20 Aug 2014 23:59:29 +0000
+Wed, 03 Mar 2010 19:46:07 +0000
 
-Version: 5.4.32
+Version: 5.3.2
 Branch: HEAD
-Build: C:\php-sdk\php54dev\vc9\x86\obj\Release_TS
+Build: D:\php-sdk\snap_5_3\vc6\x86\obj\Release_TS
 
 Built-in Extensions
 ===========================
 Core
 bcmath
 calendar
+com_dotnet
 ctype
 date
 ereg
@@ -19,12 +20,12 @@ hash
 iconv
 json
 mcrypt
-SPL
+session
 odbc
 pcre
 Reflection
-session
 standard
+SPL
 mysqlnd
 tokenizer
 zip
@@ -47,18 +48,13 @@ Module: php_curl.dll
 	libeay32.dll
 	ssleay32.dll
 
-Module: php_enchant.dll
-===========================
-	libenchant.dll
-
 Module: php_intl.dll
 ===========================
-	icuuc49.dll
-	icuin49.dll
+	icuuc36.dll
+	icuin36.dll
 
 Module: php_ldap.dll
 ===========================
-	libsasl.dll
 	ssleay32.dll
 	libeay32.dll
 
@@ -70,14 +66,6 @@ Module: php_openssl.dll
 Module: php_pgsql.dll
 ===========================
 	libpq.dll
-
-Module: php_snmp.dll
-===========================
-	libeay32.dll
-
-Module: php_sockets.dll
-===========================
-	iphlpapi.dll
 
 Module: php_pdo_pgsql.dll
 ===========================
